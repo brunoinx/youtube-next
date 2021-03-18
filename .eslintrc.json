@@ -20,7 +20,8 @@
   "rules": {
     "prettier/prettier": "error",
     "react/react-in-jsx-scope": "off",
-    // Desliga o prop types
-    "react/prop-types": "off"
+    "react/prop-types": "off",    // Desliga o prop types
+    "import/no-unresolved": "off",
+    "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}]
   }
 }
