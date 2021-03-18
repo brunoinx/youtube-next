@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { makeStyles } from '@material-ui/core'
 import TopBar from './TopBar'
+import NavBar from './NavBar'
 
 // função contem vários métodos p/ estilizar os componentes
 const useStyles = makeStyles((theme) => ({
@@ -45,7 +46,7 @@ export default function Layout({ children, title }) {
 
       <div className={classes.root}>
         <TopBar />
-        <div>NavBar</div>
+        <NavBar />
         <div className={classes.wrapper}>
           <div className={classes.contentContainer}>
             <div>{children}</div>
